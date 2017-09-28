@@ -16,7 +16,7 @@ public class Przyklad3 {
 		try {
 			konto.wyplata(2000);
 		} catch (BrakSrodkow e) {
-			e.printStackTrace();
+			System.out.println("BRAK ŚRODKÓW - saldo ujemne");
 		}
 		System.out.println(konto);
 	}
